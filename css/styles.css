@@ -23,3 +23,83 @@ img {
 body {
   font-size: 1.6rem;
 }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem ;
+  color: #ffffff;
+
+}
+.nav__links{
+  display: flex;
+  gap: 30px;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.nav__links a{
+  color:#555555
+}
+.nav__logo {
+  height: 1.6rem;
+  color:#1a1a1a;
+  
+  
+}
+
+.hero{
+background-color: #000000;
+padding: 6.4rem 6.4rem;
+}
+.hero h1{
+  color:#ffffff;
+  font-size: 4rem;
+  margin: 10px 0;
+}
+.hero span{
+  color: #c0392b;
+}
+
+.btn--primary{
+background-color:#c0392b;
+color:#ffffff;
+
+}
+.btn{
+padding: 1rem 2.4rem;
+border-radius: 0.6rem;
+display: inline-block;
+}
+
+.btn:hover{
+opacity: 0.6;
+}
+.hero p{
+color: #888888;
+margin: 1.4rem;
+}
+.hero{
+  
+  text-align: left;
+}
+.header{
+padding: 0 50px;
+}
+.card{
+  flex: 1;
+  border-radius: 1;
+   
+  padding: 28px 24px;
+  background-color: #e0ddd5;
+}
+.cards{
+  display: flex;
+  gap: 24px;
+}
+.image{
+  height: 20rem;
+}
